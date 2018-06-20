@@ -1,0 +1,15 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/JoanStar/nodejs.git)"
+  },
+  "author": "Joan Bu",
+  "license": "ISC"
+}
