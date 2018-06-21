@@ -4,12 +4,17 @@
   "description": "this is a test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "(https://github.com/JoanStar/nodejs.git)"
   },
   "author": "Joan Bu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
